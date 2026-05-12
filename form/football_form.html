@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./football.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Kindly fill in the form below</h1>
+
+      <form name="Contact" autocomplete="off" class="form">
+        <div>
+          <div class="labelContainer">
+            <label for="fullname"> Full Name</label>
+          </div>
+          <input
+            type="text"
+            name="fullname"
+            placeholder="Enter your fullname"
+            id="fullname"
+            required=""
+            class="input"
+          />
+        </div>
+        <br />
+
+        <div>
+          <div class="labelContainer"><label for="email"> Email</label></div>
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            id="email"
+            required=""
+            class="input"
+          />
+        </div>
+        <br />
+
+        <div>
+          <div class="labelContainer">
+            <label for="Password">Password</label>
+          </div>
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+            id="password"
+            required=""
+            class="input"
+          />
+        </div>
+        <br />
+
+        <div>
+          <div><label for="age">Age</label></div>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            min="18"
+            max="99"
+            required=""
+            class="agelabel"
+          />
+        </div>
+        <br />
+
+        <div>
+          <input
+            type="checkbox"
+            name="newsletter"
+            value="1"
+            id="newsletter"
+            checked=""
+            class="checkbox"
+          />
+          Subscribe to Newsletter
+        </div>
+        <br />
+
+        <div>
+          <input
+            type="radio"
+            name="gender"
+            id="gender"
+            value="male"
+            checked=""
+            class="gender"
+          />
+          Male
+          <input
+            type="radio"
+            name="gender"
+            id="gender"
+            value="female"
+            class="gender"
+          />Female
+        </div>
+        <br />
+
+        <div>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Send us a message"
+            class="textarea"
+            style="width: 293px; height: 69px"
+          ></textarea>
+        </div>
+        <br />
+
+        <div>
+          <h3>Select a Country for yoyur next vacation</h3>
+          <select name="country" id="country" class="country">
+            <option value="nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="togo">Togo</option>
+            <option value="niger">Niger</option>
+            <option value="benin">Benin</option>
+          </select>
+        </div>
+        <br />
+
+        <div>
+          <label for="resume">Upload Your Resume</label>
+          <br />
+          <input type="file" name="resume" id="resume" class="filelabel" />
+        </div>
+        <br />
+
+        <div>
+          <label for="number">Number</label>
+          <br />
+          <input
+            type="number"
+            name="number"
+            id="number"
+            placeholder="input your mobile number"
+            class="number"
+          />
+        </div>
+        <br />
+
+        <div>
+          <button type="submit" class="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
